@@ -6,13 +6,12 @@ const float pi = 3.14;
 // Fungsi untuk menghitung Luas Lingkaran
 float hitungLuasLingkaran(float radius){
     return (pi * radius * radius);
-}
+};
 
 // Fungsi untuk menghitung Keliling Lingkaran
 float hitungKelilingLingkaran(float diameter){
     return (pi * diameter);
-}
-
+};
 
 int main(){
     int PilihMenu;
@@ -39,12 +38,9 @@ int main(){
 
         default:
         cout << "Pilihan tidak tersedia" << endl;
-
-    return 0;
-
- 
     }
-
-
-  
+    cout << " " << endl;
+    cout << " " << endl;
+    cout << "By: Habibah Ratna Fadhila Islami Hana (2311110038)" << endl;
+    return 0;
 }

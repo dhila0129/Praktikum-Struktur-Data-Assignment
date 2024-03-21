@@ -43,5 +43,8 @@ cout << "=== Drama China Paling Romantis 2 ==="
      << "\nTahun Rilis: " << drama2.tahun_rilis
      << "\nJumlah Episode: " << drama2.jumlah_episode << endl;
          
+    cout << " " << endl;
+    cout << " " << endl;
+    cout << "By: Habibah Ratna Fadhila Islami Hana (2311110038)" << endl;
     return 0;
 }

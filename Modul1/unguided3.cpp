@@ -23,6 +23,8 @@ int main() {
     cout << "Nilai Diana: " << nilai_siswa["Diana"] << endl;
     cout << "Nilai Eve: " << nilai_siswa["Eve"] << endl;
    
-
+    cout << " " << endl;
+    cout << " " << endl;
+    cout << "By: Habibah Ratna Fadhila Islami Hana (2311110038)" << endl;
     return 0;
 }
