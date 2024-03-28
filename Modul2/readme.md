@@ -52,6 +52,7 @@ int main() {
 Program tersebut akan menampilkan output,
 
 Isi array matriks:
+
 1 2
 
 3 4
@@ -85,6 +86,7 @@ int main() {
 Program tersebut akan menampilkan output,
 
 Elemen matriks:
+
 1 2 3 
 
 4 5 6 
