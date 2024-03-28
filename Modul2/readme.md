@@ -394,9 +394,9 @@ int main() {
 Program di atas adalah contoh program untuk meminta input dari user untuk membuat array tiga dimensi, kemudian menampilkan elemen-elemennya. Pertama, program akan mendeklarasikan variabel ukurang 'panjang', 'lebar', dan 'tinggi' array tiga dimensi. Lalu, user akan diminta untuk melakukan input ukuran array tersebut. Selanjutnya, program akan mendeklarasikan array tiga dimensi dengan menggunakan ukuran yang dimasukkan oleh user. Kemudian, user diminta untuk memasukkan elemen-elemen array satu per satu menggunakan nested loop (loop bersarang) untuk mengakses setiap elemen. Setelah user selesai memasukkan elemen-elemen array, program menampilkan elemen-elemen tersebut dengan menampilkan indeks dan nilai masing-masing elemen. Program juga menampilkan array secara keseluruhan dengan menampilkan elemen-elemen pada setiap baris, dengan spasi di antara elemen-elemen dalam baris dan baris-baris pada array.
 
 #### Full code Screenshot:
-![Screenshot 2024-03-21 231538](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/82d70ce8-e917-435f-bfce-768b63bbe215)
+![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/9a82fbfd-dfa3-442a-8af3-987b5fb8e03c)
 
-![Screenshot 2024-03-21 231619](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/4aa87d32-7636-4d33-9e00-d4167ad2996d)
+![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/e1117d75-0eea-4eed-aad8-25e014344012)
 
 
 ### 3. Buatlah program menu untuk mencari nilai Maksimum, Minimum dan Nilai rata – rata dari suatu array dengan input yang dimasukan oleh user!
@@ -513,6 +513,9 @@ Program memproses pilihan user menggunakan switch-case:
 
 ## Referensi
 [1] R. Selamet, “IMPLEMENTASI STRUKTUR DATA LIST, QUEUE DAN STACK DALAM JAVA”, vol. 15, no. 3, p. 19, Mar. 2016, [Online]. Available: https://jurnal.likmi.ac.id/Jurnal/11_2016/112016_03_Rachmat.pdf
+
 [2] M. P. Putri et al., ALGORITMA DAN STRUKTUR DATA. BANDUNG: PENERBIT WIDINA BHAKTI PERSADA BANDUNG, 2022, pp. 90–96. Available: https://repository.penerbitwidina.com/media/publications/557434-algoritma-dan-struktur-data-2ceb12a5.pdf. [Accessed: Mar. 27, 2024]
+
 [3] U. Ta, “Pemograman C++ Bab 12 Array.pdf,” www.academia.edu, Available: https://www.academia.edu/35362129/Pemograman_C_Bab_12_Array_pdf. [Accessed: Mar. 28, 2024]
+
 [4] R. P. ARFA, “MAKALAH ARRAY 1 DIMENSI DAN MULTIDIMENSI,” www.academia.edu, 2017, Available: https://www.academia.edu/35390032/MAKALAH_ARRAY_1_DIMENSI_DAN_MULTIDIMENSI. [Accessed: Mar. 28, 2024]
