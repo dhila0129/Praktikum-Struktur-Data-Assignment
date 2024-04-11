@@ -77,6 +77,7 @@ void selectSort(int arr[], int n) {
 ```
 
 Selection sort adalah suatu metode pengurutan yang membandingkan elemen yang sekarang dengan elemen berikutnya sampai ke elemen yang terakhir. Jika ditemukan elemen lain yang lebih kecil dari elemen sekarang maka dicatat posisinya dan langsung ditukar. Perbandingan dilakukan terus sampai tidak ada lagi pertukaran data. Kelebihan dari algoritma selection sort adalah sederhana dan mudah dipahami. Namun, kompleksitas waktunya adalah O(n^2), di mana n adalah jumlah elemen dalam array, sehingga tidak efisien untuk array besar.
+
 ![Screenshot 2024-04-11 100448](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/2725db52-cc52-4a4c-8e9e-6e733f5f180b)
 
 Berikut adalah contoh dari algoritma selection sort:
