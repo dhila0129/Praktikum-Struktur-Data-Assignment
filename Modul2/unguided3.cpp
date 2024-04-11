@@ -2,19 +2,19 @@
 using namespace std;
 
 int main() {
-    // Deklarasi tipe data sebuah variabel
-    int maks, min, a, lokasiMax, lokasiMin, jumlah = 0, rata;
-    // Input panjang array
-    cout << "Masukkan panjang array: ";
+    // Deklarasi tipe data variabel
+    int maks, min, a, lokasi_max, lokasi_min, jumlah = 0, rata;
+    // Input ukuran array
+    cout << "Masukkan ukuran array: ";
     cin >> a;
 
-    // Validasi panjang array harus lebih besar dari 0
+    // Validasi ukuran array harus lebih besar dari 0
     if (a <= 0) {
-        cout << "Panjang array harus lebih besar dari 0." << endl;
+        cout << "Ukuran array harus lebih besar dari 0." << endl;
         return 1; // Return 1 untuk indikasi error
     }
 
-    // Deklarasi panjang array
+    // Deklarasi ukuran array
     int array[a];
 
     // Input elemen array
@@ -29,17 +29,17 @@ int main() {
         // Inisialisasi nilai maks dan min dengan elemen pertama
         if (i == 0) {
             maks = min = array[i];
-            lokasiMax = lokasiMin = i;
+            lokasi_max = lokasi_min = i;
         } else {
-            // Mencari nilai maksimum
+            // Mencari nilai maksimum array
             if (array[i] > maks) {
                 maks = array[i];
-                lokasiMax = i;
+                lokasi_max = i;
             }
-            // Mencari nilai minimum
+            // Mencari nilai minimum array
             if (array[i] < min) {
                 min = array[i];
-                lokasiMin = i;
+                lokasi_min = i;
             }
         }
     }
@@ -58,10 +58,10 @@ int main() {
 
     switch (pilihan) {
         case 1:
-            cout << "Nilai maksimum adalah " << maks << " berada di Array ke-" << lokasiMax << endl;
+            cout << "Nilai maksimum adalah " << maks << " berada di Array ke-" << lokasi_max << endl;
             break;
         case 2:
-            cout << "Nilai minimum adalah " << min << " berada di Array ke-" << lokasiMin << endl;
+            cout << "Nilai minimum adalah " << min << " berada di Array ke-" << lokasi_min << endl;
             break;
         case 3:
             // Menghitung rata-rata
