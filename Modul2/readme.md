@@ -52,7 +52,9 @@ int main() {
 Program tersebut akan menampilkan output,
 
 Isi array matriks:
+
 1 2
+
 3 4
 
 Karena pada contoh tersebut, dibuat suatu array dua dimensi dengan nama 'matriks' yang berisi angka dari 1 sampai 4. Setiap elemen dalam array dua dimensi diakses menggunakan dua indeks, yaitu matriks[baris][kolom].
@@ -84,8 +86,11 @@ int main() {
 Program tersebut akan menampilkan output,
 
 Elemen matriks:
+
 1 2 3 
+
 4 5 6 
+
 7 8 9 
 
 Pada program C++ tersebut, didefinisikan sebuah array multidimensi (matriks) 3x3 yang berisi bilangan bulat dari 1 hingga 9. 
