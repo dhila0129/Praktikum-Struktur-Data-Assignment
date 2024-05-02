@@ -300,10 +300,10 @@ Struct adalah pengelompokkan dari variabel-variabel yang berada dalam satu nama 
 
 ## Referensi
 
-[1]Triase, “STRUKTUR DATA,” Oct. 2020. Available: http://repository.uinsu.ac.id/9717/2/Diktat%20Struktur%20Data.pdf. [Accessed: May 02, 2024]
+[1] Triase, “STRUKTUR DATA,” Oct. 2020. Available: http://repository.uinsu.ac.id/9717/2/Diktat%20Struktur%20Data.pdf. [Accessed: May 02, 2024]
 
-[2]U. Ta, “Pemograman C++ Bab 14 Struct,” www.academia.edu, pp. 116–121, Available: https://www.academia.edu/35362131/Pemograman_C_Bab_14_Struct_pdf. [Accessed: May 02, 2024]
+[2] U. Ta, “Pemograman C++ Bab 14 Struct,” www.academia.edu, pp. 116–121, Available: https://www.academia.edu/35362131/Pemograman_C_Bab_14_Struct_pdf. [Accessed: May 02, 2024]
 
-[3]D. NURBAITI RAHMI, “IMPLEMENTASI STRUKTUR DATA ROPE PADA STUDI KASUS PERMASALAHAN SPOJ ALPHABETIC ROPE,” Jan. 2018. Available: https://repository.its.ac.id/50680/1/5114100030-Undergraduate_Theses.pdf. [Accessed: May 02, 2024]
+[3] D. NURBAITI RAHMI, “IMPLEMENTASI STRUKTUR DATA ROPE PADA STUDI KASUS PERMASALAHAN SPOJ ALPHABETIC ROPE,” Jan. 2018. Available: https://repository.its.ac.id/50680/1/5114100030-Undergraduate_Theses.pdf. [Accessed: May 02, 2024]
 
-[4]E. Budi Setiawan, “BAB IX - STRUCT.” Available: https://repository.unikom.ac.id/34750/1/BAB%20IX%20-%20STRUCT.pdf. [Accessed: May 02, 2024]
+[4] E. Budi Setiawan, “BAB IX - STRUCT.” Available: https://repository.unikom.ac.id/34750/1/BAB%20IX%20-%20STRUCT.pdf. [Accessed: May 02, 2024]
