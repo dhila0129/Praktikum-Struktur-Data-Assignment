@@ -295,41 +295,53 @@ Program ini merupakan implementasi dari sebuah single linked list non-circular m
 Fungsi `init()` akan menginisialisasi `head` dan `tail` menjadi `NULL`, menandakan bahwa linked list kosong. Lalu fungsi `isEmpty()` akan memeriksa apakah linked list kosong dengan memeriksa apakah `head` adalah `NULL`. Jika `head` adalah `NULL`, maka linked list kosong dan fungsi mengembalikan `true`, jika tidak, fungsi mengembalikan `false`.
 
 Operasi pada single linked list:
+
 a. `insertDepan(int nilai)`
    - Fungsi ini menambahkan simpul baru di depan linked list dengan nilai `nilai`.
    - Jika linked list kosong, simpul baru menjadi `head` dan `tail`.
    - Jika tidak, simpul baru ditambahkan di depan `head` dan `head` diperbarui.
+
 b. `insertBelakang(int nilai)`
    - Fungsi ini menambahkan simpul baru di belakang linked list dengan nilai `nilai`.
    - Jika linked list kosong, simpul baru menjadi `head` dan `tail`.
    - Jika tidak, simpul baru ditambahkan setelah `tail` dan `tail` diperbarui.
+
 c. `hitungList()`
    - Fungsi ini menghitung jumlah simpul dalam linked list dengan menghitung dari `head` hingga `NULL`.
+
 d. `insertTengah(int data, int posisi)`
    - Fungsi ini menambahkan simpul baru di posisi tertentu dalam linked list.
    - Fungsi ini mengambil dua parameter: `data` yang merupakan nilai untuk simpul baru dan `posisi` yang menunjukkan posisi di mana simpul baru akan dimasukkan.
    - Jika posisi diluar jangkauan atau posisi bukan posisi tengah, pesan kesalahan akan dicetak.
    - Jika tidak, simpul baru akan dimasukkan di antara simpul-simpul yang ada.
+
 e. `hapusDepan()`
    - Fungsi ini menghapus simpul pertama dari linked list.
    - Jika linked list tidak kosong, simpul pertama dihapus dan `head` diperbarui.
    - Jika simpul yang dihapus adalah simpul terakhir, `head` dan `tail` diatur menjadi `NULL`.
+
 f. `hapusBelakang()`
    - Fungsi ini menghapus simpul terakhir dari linked list.
    - Jika linked list tidak kosong, simpul terakhir dihapus dan `tail` diperbarui.
    - Jika simpul yang dihapus adalah simpul pertama, `head` dan `tail` diatur menjadi `NULL`.
+
 g. `hapusTengah(int posisi)`
    - Fungsi ini menghapus simpul pada posisi tertentu dalam linked list.
    - Jika posisi diluar jangkauan atau posisi bukan posisi tengah, pesan kesalahan akan dicetak.
    - Jika tidak, simpul pada posisi yang ditentukan akan dihapus.
+
 h. `ubahDepan(int data)`
    - Fungsi ini mengubah nilai data dari simpul pertama dalam linked list.
+
 i. `ubahTengah(int data, int posisi)`
    - Fungsi ini mengubah nilai data dari simpul pada posisi tertentu dalam linked list.
+
 j. `ubahBelakang(int data)`
    - Fungsi ini mengubah nilai data dari simpul terakhir dalam linked list.
+
 k. `clearList()`
    - Fungsi ini menghapus semua simpul dalam linked list dengan membebaskan memori yang dialokasikan untuk setiap simpul.
+
 l. `tampil()`
    - Fungsi ini menampilkan isi linked list dengan menelusuri setiap simpul dari `head` hingga `NULL` dan mencetak nilai data dari setiap simpul.
 
@@ -471,23 +483,28 @@ int main() {
 Program ini merupakan implementasi dari sebuah doubly linked list yang menggunakan bahasa pemrograman C++. Pertama, program akan mendeklarasikan class `Node` yang memiliki tiga anggota data yaitu,`data` untuk menyimpan nilai, `prev` yang merupakan pointer ke node sebelumnya, dan `next` yang merupakan pointer ke node selanjutnya dalam linked list. Lalu, program akan mendeklarasikan class `DoublyLinkedList` yang memiliki dua pointer `head` dan `tail` yang menunjuk ke node pertama dan terakhir dalam linked list serta menginisialisasi `head` dan `tail` menjadi `nullptr` untuk menandakan bahwa linked list kosong.
 
 Operator pada double linked list:
+
 a. `push(int data)`
    - Fungsi ini menambahkan node baru di depan linked list dengan nilai `data`.
    - Node baru diinisialisasi dengan nilai `data`, `prev` diatur menjadi `nullptr`, dan `next` diatur menjadi `head`.
    - Jika `head` tidak `nullptr`, maka node sebelumnya dari `head` (`head->prev`) diatur menjadi node baru.
    - Jika `head` adalah `nullptr`, maka `tail` diatur menjadi node baru.
    - `head` diperbarui menjadi node baru.
+
 b. `pop()`
    - Fungsi ini menghapus node pertama dari linked list.
    - Jika `head` adalah `nullptr`, tidak ada node yang dihapus.
    - Jika tidak, node pertama dihapus dan `head` diperbarui menjadi node berikutnya.
    - Jika `head` adalah `nullptr` setelah penghapusan, `tail` diatur menjadi `nullptr`.
+
 c. `update(int oldData, int newData)`
    - Fungsi ini mencari nilai `oldData` dalam linked list dan menggantinya dengan `newData`.
    - Fungsi mengembalikan `true` jika nilai berhasil diperbarui, dan `false` jika nilai tidak ditemukan dalam linked list.
+
 d. `deleteAll()`
    - Fungsi ini menghapus semua node dalam linked list.
    - Setiap node dihapus satu per satu, dan `head` dan `tail` diatur menjadi `nullptr`.
+
 e. `display()`
    - Fungsi ini menampilkan isi linked list dengan menelusuri setiap node dari `head` hingga `nullptr` dan mencetak nilai data dari setiap node.
 
@@ -697,22 +714,28 @@ int main() {
 Program tersebut merupakan implementasi dari program C++ yang menggunakan linked list untuk menyimpan data mahasiswa, yaitu nama dan usia. Pertama, program akan mendeklarasikan`struct Node` yang digunakan untuk merepresentasikan node dalam linked list. Setiap node memiliki dua atribut, yaitu `nama` (string) untuk menyimpan nama mahasiswa, `usia` (integer) untuk menyimpan usia mahasiswa, dan `next` (pointer) untuk menunjukkan ke node selanjutnya dalam linked list. Kemudian, program akan mendeklarasikan `class LinkedList`  yaitu kelas yang mengelola linked list dan memiliki atribut privat `head` yang merupakan pointer ke node pertama dalam linked list. Program juga menginisialisasi `head` menjadi `nullptr` saat objek LinkedList dibuat.
 
 Operator linked list:
+
 a. Fungsi `insertDepan(string nama, int usia)`
 - Menambahkan node baru di depan linked list.
 - Node baru dibuat dengan data nama dan usia yang diberikan, lalu dihubungkan dengan `head`.
+
 b. Fungsi `insertBelakang(string nama, int usia)`
 - Menambahkan node baru di belakang linked list.
 - Jika linked list masih kosong, node baru tersebut akan menjadi `head`.
 - Jika tidak, iterasi dilakukan hingga mencapai node terakhir, lalu node baru dihubungkan di belakang node terakhir.
+
 c. Fungsi `display()`
 - Menampilkan seluruh data dalam linked list.
 - Iterasi dilakukan dari `head` hingga `nullptr`, dan setiap node ditampilkan beserta data nama dan usianya.
+
 d. Fungsi `hapus(string nama)`
 - Menghapus node dengan nama tertentu dari linked list.
 - Iterasi dilakukan untuk menemukan node yang akan dihapus, lalu node tersebut dihapus dengan mengubah pointer `next` dari node sebelumnya.
+
 e. Fungsi `insertTengah(string nama, int usia, string posisi)`
 - Menambahkan node baru di antara dua node tertentu dalam linked list.
 - Iterasi dilakukan untuk menemukan node dengan nama yang sesuai dengan `posisi`, lalu node baru dihubungkan di antara node tersebut.
+
 f. Fungsi `ubahData(string nama, string nama_baru, int usia_baru)`
 - Mengubah data (nama dan usia) dari node dengan nama tertentu.
 - Iterasi dilakukan untuk menemukan node yang akan diubah, lalu data pada node tersebut diubah sesuai dengan input baru.
