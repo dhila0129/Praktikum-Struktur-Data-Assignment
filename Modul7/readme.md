@@ -3,11 +3,16 @@
 
 ## Dasar Teori
 
-**## A. Stack**
-Dalam dunia komputer, penggunaan stack atau tumpukan merupakan salah sastu komponen penting untuk menjamin proses penanganan suatu data disamping hal lain seperti quenue (antrian), linked list, dan tree [1]. Stack atau tumpukan adalah suatu stuktur data yang penting dalam pemrograman dengan metode pemrosesan yang bersifat LIFO (Last In First Out) dimana objek/benda yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack [2]. Tumpukan dapat diartikan sebagai suatu kumpulan data yang seolah-olah terlihat seperti ada data yang diletakkan di atas data yang lain. 
+## A. Stack
+
+Dalam dunia komputer, penggunaan stack atau tumpukan merupakan salah sastu komponen penting untuk menjamin proses penanganan suatu data disamping hal lain seperti quenue (antrian), linked list, dan tree [1]. Stack atau tumpukan adalah suatu stuktur data yang penting dalam pemrograman dengan metode pemrosesan yang bersifat LIFO (Last In First Out) dimana objek/benda yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack [2]. Tumpukan dapat diartikan sebagai suatu kumpulan data yang seolah-olah terlihat seperti ada data yang diletakkan di atas data yang lain.
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/8211adb1-4991-411d-a5e1-38783fea3e90)
+
 Saat kita ingin mengambil data A, maka data-data yang berada di atasnya haruslah lebih dulu dikeluarkan [3].
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/8a3e4abb-f0b0-4bd3-a630-042aa9612182)
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/1f673bc8-9ca7-4026-8929-bef5db465d2d)
 
 Operasi utama dalam stack adalah:
@@ -18,7 +23,7 @@ Operasi utama dalam stack adalah:
 - `isEmpty`: Memeriksa apakah stack kosong.
 - `isFull`: Memeriksa apakah stack penuh (terutama pada implementasi dengan batasan ukuran).
 
-**## B. Queue**
+## B. Queue
 Kebalikan dari stack, queue (antrian) adalah suatu jenis struktur data yang dapat diproses dengan sifat FIFO (First In First Out), dimana elemen yang pertama kali masuk ke antrian akan keluar pertama kalinya [2]. Queue adalah struktur data linier yang menyimpan serangkaian elemen yang diatur dalam urutan linier.
 
 Queue terdiri dari serangkaian elemen yang terhubung satu sama lain. Setiap elemen dalam queue memiliki dua operasi dasar: 
@@ -29,6 +34,7 @@ Selain itu, ada beberapa operasi tambahan yang sering digunakan pada queue:
 - `Size` : Menghitung jumlah elemen dalam queue.
 - `isEmpty`: Memeriksa apakah antrian kosong.
 - `isFull`: Memeriksa apakah antrian penuh (pada implementasi dengan batasan ukuran).
+  
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/20b31f4b-cfe4-4c49-b513-5ed47c30416a)
 
 ## Guided 
