@@ -485,9 +485,13 @@ int main() {
 ```
 #### Output:
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/f4b4bc51-9234-45d6-8629-b06b20269105)
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/6413b3ff-c40f-49f9-a806-b367eecc8ae4)
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/e67d4490-4d09-4733-bda9-2c65ecd7b671)
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/f72df45b-493f-4905-97f6-9e8152c83bf1)
+
 ![image](https://github.com/dhila0129/Praktikum-Struktur-Data-Assignment/assets/161398011/04b1722f-bd49-4b50-ad44-325e6a8fda86)
 
 Program di atas adalah program C++ yang mengimplementasikan simulasi antrian teller menggunakan array. Program ini menyediakan beberapa opsi menu untuk melakukan operasi pada antrian, seperti menambahkan antrian, menghapus antrian, melihat antrian, menghitung jumlah antrian, menghapus semua antrian, dan keluar dari program.
